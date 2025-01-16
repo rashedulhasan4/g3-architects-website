@@ -168,3 +168,15 @@ body{
         margin-bottom: 25px;
     }
 }
+.teams{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.teams-img{
+    grid-template-columns: repeat(1,1fr);
+    gap: 4px;
+    padding: 10px;
+}
+.teams-pic{
+    width: 100%;
+}
