@@ -87,18 +87,39 @@
 /* Responsive Media */
 /* Small Device */
 @media screen and (max-width:576px){
+    .hide{
+        display: none;
+    }
     body{
         margin: 0px;
     }
     header{
         padding: 10px;
     }
+    .banner{
+        padding: 10px;
+    }
+    .brand{
+        margin : 0px;
+    }
     .navbar{
         flex-direction: column;
   
         align-items: center;
     }
+    .nav-items{
+        margin-right: 20px;
+    }
     .nav-items a{
         font-size: 0.8rem;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-des{
+        margin: 16px;
+    }
+    .explore-btn{
+        margin-bottom: 25px;
     }
 }
