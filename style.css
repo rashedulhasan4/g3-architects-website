@@ -93,8 +93,10 @@
     header{
         padding: 10px;
     }
-    .nav-bar{
+    .navbar{
         flex-direction: column;
+  
+        align-items: center;
     }
     .nav-items a{
         font-size: 0.8rem;
