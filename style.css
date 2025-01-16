@@ -93,8 +93,8 @@
     header{
         padding: 10px;
     }
-    .brand{
-        font-size: 1.5rem;
+    .nav-bar{
+        flex-direction: column;
     }
     .nav-items a{
         font-size: 0.8rem;
