@@ -62,7 +62,7 @@ body{
     text-decoration: none;
   }
 
-  .navbar , .banner, .features, .some-facts{
+  .navbar , .banner, .features, .some-facts,  .sponsors, .foter{
     max-width: 1440px;
     margin: 0 auto;
   }
@@ -242,7 +242,44 @@ body{
 }
 
 
+/* Sponsors Section  */
+.sponsors-header-container{
+    width: 542px;
+    text-align: center;
+    margin: 0 auto 50px auto;
+}
+.sponsors-header-container h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 0px;
+}
+.sponsors-header-container p{
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.sponsors-icon{
+    justify-content: center;
+    gap: 150px;
+}
+.sponsors-icon img{
+    width: 160px;
+    height: 50px;
+    filter: grayscale(100%);
+}
 
+/* Footer Section  */
+.foter{
+    background-color: #FFF4E7;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+}
+.foter p{
+    font-size: 1rem;
+}
 
 /* Responsive Media */
 /* Small Device */
