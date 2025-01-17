@@ -140,7 +140,6 @@ body{
     gap: 146px;
 }
 .feature-container{
-    /* margin: 38px auto; */
     width: 586px;
 }
 .features-heading-part h3{
@@ -176,7 +175,6 @@ body{
 }
 .features-image{
     width: 800px;
-    /* margin-left: 146px; */
 }
 .features-image img{
     width: 100%;
@@ -284,10 +282,13 @@ body{
 /* Responsive Media */
 /* Small Device */
 @media screen and (max-width:576px){
+    .margin-bottom{
+        margin-bottom: 50px;
+    }
     .hide{
         display: none;
     }
-    header, main{
+    header, main, .features {
         padding: 10px;
     }
     .banner{
@@ -336,44 +337,57 @@ body{
         font-size: 3rem;
         margin-bottom: 10px;
     }
-}
+    
 
-/* so 
-/* ----teams features section ----  */
-/* .teams{
-    justify-content: center;
-    margin-top: 77px;
-}
-.teams-img{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-}
-.teams-features{
-    max-width: 537px;
-    margin-left: 73px;
+
+    /* Features Sections  */
+.features-text-side{
     flex-direction: column;
-    justify-content: center;
+    gap: 0px;
 }
-.teams-pic{
-    width: 342px;
-    height: 342px;
-    border-radius: 8px;
-
+.feature-container{
+    width: 100%;
 }
-.teams-features h3{
-    font-size: 3rem;
-    margin-bottom: 24px;
+.features-heading-part h3{
+    font-size: 1.8rem;
+    border-left: 3px solid #FF900E;
+    padding-left: 5px;
 }
-#Quick-list{
-    font-weight: 500;
+.features-image{
+    width: 100%;
 }
-.features, #of-ours{
-    font-weight: bold;
+.features-image img{
+    width: 100%;
 }
-.teams-features-des{
-    margin-bottom: 32px;
+.features-btn{
+    padding: 20px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.years10{
     font-size: 1rem;
 }
-
-*/
+.Experience{
+    font-size: 1rem;
+}
+.some-facts p{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.facts-container{
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+}
+.facts-card{
+    margin-bottom: 25px;
+}
+.foter{
+    max-width: 100%;
+    height: 50px;
+    border-radius: 0px;
+}
+.foter p{
+    font-size: 0.7rem;
+}
+}
