@@ -323,20 +323,21 @@ body{
     .teams-img{
         grid-template-columns: repeat(2,1fr);
         gap: 4px;
-     padding: 10px;
+        padding: 10px;
     }
     .teams-pic{
         width: 100%;
         height: 100%;
     }
+    .teams-features{
+        margin-left: 0px;
+    }
+    .teams-features h3{
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
 }
-.teams-features{
-    margin-left: 0px;
-}
-.teams-features h3{
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
+
 /* so 
 /* ----teams features section ----  */
 /* .teams{
