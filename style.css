@@ -134,8 +134,13 @@ body{
 
 
 /* Features Sections  */
-
-.features-card{
+.features-text-side{
+    justify-content: center;
+    align-items: center;
+    gap: 146px;
+}
+.feature-container{
+    /* margin: 38px auto; */
     width: 586px;
 }
 .features-heading-part h3{
@@ -143,7 +148,9 @@ body{
     font-weight: bold;
     border-left: 5px solid #FF900E;
     padding-left: 20px;
-    margin-bottom: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
 }
 .features-des{
     font-size: 1rem;
@@ -168,11 +175,11 @@ body{
     color: #727272;
 }
 .features-image{
-    margin-left: 54px;
+    width: 800px;
+    /* margin-left: 146px; */
 }
 .features-image img{
-    margin-left: 92px;
-    width: 800px;
+    width: 100%;
 }
 .features-btn{
     color: white;
@@ -180,10 +187,9 @@ body{
     background-color: #FF900E;
     border: none;
     border-radius: 8px;
-    margin-bottom: 0px;
     margin-top: -100px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: -80px;
+    /* height: 230px; */
 }
 .years10{
     font-size: 4rem;
